@@ -13,8 +13,8 @@ install PostgresSQL and create db
 git clone https://github.com/Thirteenthskyi/cinema_service.git
 cd cinema_service
 ```
-
-2. Install modules and dependencies:
+2. Install PostgresSQL and create DB.
+3. Install modules and dependencies:
 
 ```bash
 python -m venv venv
@@ -23,19 +23,19 @@ source venv/bin/activate (on macOS)
 pip install -r requirements.txt
 ```
 
-3. `.env_sample` 
+4. `.env_sample` 
 This is a sample .env file for use in local development.
 Duplicate this file as .env in the root of the project
 and update the environment variables to match your
 desired config. You can use [djecrety.ir](https://djecrety.ir/)
 
-4. Use the command to configure the database and tables:
+5. Use the command to configure the database and tables:
 
 ```bash
 python manage.py migrate
 ```
 
-5. Start the app:
+6. Start the app:
 
 ```bash
 python manage.py runserver
