@@ -60,4 +60,4 @@ docker-compose up
 - Managing orders and tickets
 - Creating movies with genres, actors
 - Creating movie sessions
-- Filtering movies and movie sessions
+- Filtering movies and movie sessions 
